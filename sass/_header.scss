@@ -35,6 +35,11 @@
     &__btn {
         align-self: start;
         justify-self: start;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
     }
 
     &__seenon-text {
