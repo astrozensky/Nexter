@@ -300,9 +300,13 @@ body {
   align-self: start;
   justify-self: start;
 }
-.header__btn a {
+.header__btn a:link,
+.header__btn a:visited {
   text-decoration: none;
   color: #fff;
+}
+.header__btn:focus {
+  outline: none;
 }
 .header__seenon-text {
   display: grid;

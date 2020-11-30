@@ -36,9 +36,14 @@
         align-self: start;
         justify-self: start;
 
-        a {
+        a:link,
+        a:visited {
             text-decoration: none;
             color: #fff;
+        }
+
+        &:focus {
+            outline: none;
         }
     }
 
