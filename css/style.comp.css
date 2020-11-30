@@ -23,6 +23,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 75em) {
   html {
@@ -298,6 +299,10 @@ body {
 .header__btn {
   align-self: start;
   justify-self: start;
+}
+.header__btn a {
+  text-decoration: none;
+  color: #fff;
 }
 .header__seenon-text {
   display: grid;
@@ -648,9 +653,6 @@ body {
   object-fit: cover;
   transform: scale(1);
   transition: all 0.2s;
-}
-.gallery__img:hover {
-  transform: scale(1.05);
 }
 
 .footer {
